@@ -1,5 +1,54 @@
-body{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+body {
+/*background: red;*/
+background: linear-gradient(to right, #ccccff 0%, #cc66ff 100%);
+
+font-family: 'Poppins', sans-serif;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+font-size: 1rem;
+line-height: 1.4;
+margin: 0;
+
+}
+
+
+#grouping {
+	margin: 0 auto 25px auto;
+  	padding: 15 px;
+}
+
+#submit-button {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  background: #00cc66;
+  color: inherit;
+  border-radius: 1px;
+}
+
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+#survey-form {
+	background: #666699;
+	padding: 20px;
+}
+
+#description{
+  margin-top: -20px ;
+
+  font-style: italic;
+  font-weight: 200;
 }
